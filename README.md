@@ -3,7 +3,7 @@
 ## 1. Website Selection
 
 We will be performing web scraping on a website that allows scraping according to its terms of use. After reviewing the site's robots.txt file and its Terms of Service, we confirm that scraping is permitted on the following website:
-https://fakestoreapi.com/
+
 **Website URL:** [https://fakestoreapi.com/](https://fakestoreapi.com/)
 
 - The website provides an open API for developers, but it also allows scraping in a limited manner. We will respect the rules outlined in their terms and conditions to ensure compliance.
