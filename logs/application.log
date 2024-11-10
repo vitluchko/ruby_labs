@@ -1,0 +1,10 @@
+I, [2024-11-10T20:42:58.133737 #11052]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-10T20:42:58.135528 #11052]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-10T21:03:06.725523 #14204]  INFO -- : Processed File: Application started successfully
+I, [2024-11-10T21:03:06.726548 #14204]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-10T21:03:06.727595 #14204]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-10T21:03:06.728511 #14204]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-10T21:15:07.104224 #11388]  INFO -- : Processed File: Application started successfully
+I, [2024-11-10T21:15:07.106146 #11388]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-10T21:15:07.107387 #11388]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-10T21:15:07.108316 #11388]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
