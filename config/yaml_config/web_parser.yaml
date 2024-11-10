@@ -1,0 +1,15 @@
+web_scraping:
+  # URL of the starting page for scraping
+  start_page: "https://life.com.ua"
+  
+  # CSS selector to extract product names
+  product_name_selector: ".product-title"
+  
+  # CSS selector to extract product prices
+  product_price_selector: ".product-price__item"
+  
+  # CSS selector to extract product descriptions
+  product_description_selector: ".product-description"
+  
+  # CSS selector to extract product images
+  product_image_selector: ".gallery__link"

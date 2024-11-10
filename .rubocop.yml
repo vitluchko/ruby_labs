@@ -11,7 +11,7 @@ AllCops:
     - 'test/**/*'
 
 Layout/LineLength:
-  Max: 120
+  Max: 140
 
 Layout/IndentationWidth:
   Width: 2
@@ -19,5 +19,5 @@ Layout/IndentationWidth:
 Metrics/MethodLength:
   Enabled: false
 
-Style/EndOfLine:
+Layout/EndOfLine:
   EnforcedStyle: lf
