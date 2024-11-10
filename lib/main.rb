@@ -29,7 +29,7 @@ VitluchkoApplication::LoggerManager.initialize_logger(logging_config)
 # Log that the application started
 VitluchkoApplication::LoggerManager.log_processed_file('Application started successfully')
 
-# Sample product data
+# Sample product data for creating a product file
 product = {
   name: 'Nutrilite™ Vitamin D, 60 tabs',
   price: 25.99,
@@ -49,3 +49,31 @@ end
 
 # Test logging an error to the error log
 VitluchkoApplication::LoggerManager.log_error('Test error log')
+
+# Generate 10 fake items and display them in a table format using the new method
+puts "\nGenerated fake items:"
+items = 10.times.map { VitluchkoApplication::Item.generate_fake }
+
+# Call the print_fake_items_table method to display the generated items
+VitluchkoApplication::Item.print_fake_items_table(items)
+
+# Demonstrating the use of update method to change attributes of the first item
+first_item = items.first
+first_item.update do |item|
+  item.price = 29.99
+  item.description = 'Updated description with new price!'
+end
+puts "\nUpdated first item:"
+puts first_item.info
+
+# Convert all items to a hash and print the details
+puts "\nItems in hash format:"
+items.each do |item|
+  puts item.to_h
+end
+
+# Use the inspect method for detailed inspection of all items
+puts "\nInspecting all items:"
+items.each do |item|
+  puts item.inspect
+end

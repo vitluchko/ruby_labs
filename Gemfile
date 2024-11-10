@@ -20,3 +20,6 @@ gem 'colorize', '>= 0.8', '< 1.0'
 
 # Ruby LSP (Language Server Protocol) для автодоповнення
 gem 'solargraph', '>= 0.50', '< 1.0'
+
+# Faker gem for generating fake data
+gem 'faker', '>= 2.0', '< 3.0'
