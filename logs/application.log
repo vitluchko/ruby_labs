@@ -1,10 +1,25 @@
-I, [2024-11-10T20:42:58.133737 #11052]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-10T20:42:58.135528 #11052]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
-I, [2024-11-10T21:03:06.725523 #14204]  INFO -- : Processed File: Application started successfully
-I, [2024-11-10T21:03:06.726548 #14204]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-10T21:03:06.727595 #14204]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
-I, [2024-11-10T21:03:06.728511 #14204]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-10T21:15:07.104224 #11388]  INFO -- : Processed File: Application started successfully
-I, [2024-11-10T21:15:07.106146 #11388]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-10T21:15:07.107387 #11388]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
-I, [2024-11-10T21:15:07.108316 #11388]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-10T23:42:10.910210 #3076]  INFO -- : Processed File: Application started successfully
+I, [2024-11-10T23:42:11.837634 #3076]  INFO -- : Processed File: Item initialized: Ergonomic Linen Coat, Category: Beauty, Mu, Price: 292.0
+I, [2024-11-10T23:42:11.838148 #3076]  INFO -- : Processed File: Item initialized: Synergistic Silk Bench, Category: Beauty, Price: 428.0
+I, [2024-11-10T23:42:11.838733 #3076]  INFO -- : Processed File: Item initialized: Practical Rubber Wallet, Category: Clothing &, Price: 965.0
+I, [2024-11-10T23:42:11.839210 #3076]  INFO -- : Processed File: Item initialized: Intelligent Paper Keyboar, Category: Beauty, Price: 465.0
+I, [2024-11-10T23:42:11.839699 #3076]  INFO -- : Processed File: Item initialized: Intelligent Rubber Pants, Category: Jewelry, G, Price: 931.0
+I, [2024-11-10T23:42:11.842026 #3076]  INFO -- : Processed File: Item initialized: Rustic Bronze Hat, Category: Automotive, Price: 179.0
+I, [2024-11-10T23:42:11.844952 #3076]  INFO -- : Processed File: Item initialized: Enormous Concrete Watch, Category: Automotive, Price: 219.0
+I, [2024-11-10T23:42:11.846845 #3076]  INFO -- : Processed File: Item initialized: Mediocre Steel Bench, Category: Health & K, Price: 794.0
+I, [2024-11-10T23:42:11.850195 #3076]  INFO -- : Processed File: Item initialized: Awesome Marble Car, Category: Clothing, , Price: 953.0
+I, [2024-11-10T23:42:11.851169 #3076]  INFO -- : Processed File: Item initialized: Practical Steel Keyboard, Category: Sports & A, Price: 927.0
+I, [2024-11-10T23:44:53.408542 #13840]  INFO -- : Processed File: Application started successfully
+I, [2024-11-10T23:44:53.409242 #13840]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-10T23:44:53.409908 #13840]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-10T23:44:53.410280 #13840]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-10T23:44:54.359227 #13840]  INFO -- : Processed File: Item initialized: Intelligent Silk Computer, Category: Music & Au, Price: 100.0
+I, [2024-11-10T23:44:54.359866 #13840]  INFO -- : Processed File: Item initialized: Practical Steel Table, Category: Garden & H, Price: 977.0
+I, [2024-11-10T23:44:54.360381 #13840]  INFO -- : Processed File: Item initialized: Durable Rubber Table, Category: Games, Aut, Price: 877.0
+I, [2024-11-10T23:44:54.361128 #13840]  INFO -- : Processed File: Item initialized: Fantastic Iron Shoes, Category: Baby & Ele, Price: 663.0
+I, [2024-11-10T23:44:54.363207 #13840]  INFO -- : Processed File: Item initialized: Rustic Silk Knife, Category: Books, Gam, Price: 352.0
+I, [2024-11-10T23:44:54.364700 #13840]  INFO -- : Processed File: Item initialized: Mediocre Cotton Computer, Category: Movies & I, Price: 682.0
+I, [2024-11-10T23:44:54.368065 #13840]  INFO -- : Processed File: Item initialized: Aerodynamic Marble Plate, Category: Home, Auto, Price: 908.0
+I, [2024-11-10T23:44:54.371373 #13840]  INFO -- : Processed File: Item initialized: Intelligent Silk Knife, Category: Home & Gro, Price: 130.0
+I, [2024-11-10T23:44:54.372340 #13840]  INFO -- : Processed File: Item initialized: Enormous Plastic Hat, Category: Sports, Be, Price: 741.0
+I, [2024-11-10T23:44:54.373705 #13840]  INFO -- : Processed File: Item initialized: Intelligent Linen Pants, Category: Books, Price: 875.0

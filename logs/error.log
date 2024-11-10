@@ -1,2 +1,3 @@
-E, [2024-11-10T21:03:06.740428 #14204] ERROR -- : Error: Test error log
-E, [2024-11-10T21:15:07.108540 #11388] ERROR -- : Error: Test error log
+E, [2024-11-10T23:42:10.910447 #3076] ERROR -- : Error: Failed to create product file: undefined method `create_product_file' for VitluchkoApplication:Module
+E, [2024-11-10T23:42:10.910566 #3076] ERROR -- : Error: Test error log
+E, [2024-11-10T23:44:53.410439 #13840] ERROR -- : Error: Test error log

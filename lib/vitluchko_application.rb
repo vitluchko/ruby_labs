@@ -3,6 +3,7 @@
 require 'yaml'
 require 'fileutils'
 require 'logger'
+require 'faker'
 
 # VitluchkoApplication module is the main module for handling the application's logic
 # for web scraping and other related functionalities. It organizes and encapsulates
@@ -99,5 +100,93 @@ module VitluchkoApplication
   rescue StandardError => e
     LoggerManager.log_error("Failed to create product file: #{e.message}")
     raise
+  end
+
+  # Item class to represent a product or unit in the system
+  class Item
+    include Comparable
+
+    MAX_NAME_LENGTH = 25
+    MAX_CATEGORY_LENGTH = 10
+    MAX_DESCRIPTION_LENGTH = 18
+
+    attr_accessor :name, :price, :description, :category, :image_path
+
+    # Constructor to initialize the item with attributes and optional block customization
+    def initialize(attributes = {}, &)
+      # Set default values if no attributes are provided
+      @name = attributes.fetch(:name, 'Unknown Item')
+      @price = attributes.fetch(:price, 0.0)
+      @description = attributes.fetch(:description, 'No description provided')
+      @category = attributes.fetch(:category, 'Uncategorized')
+      @image_path = attributes.fetch(:image_path, '/path/to/default_image.jpg')
+
+      # Apply block customization if provided
+      instance_eval(&) if block_given?
+
+      # Log initialization details using LoggerManager
+      LoggerManager.log_processed_file("Item initialized: #{@name}, Category: #{@category}, Price: #{@price}")
+    end
+
+    # Method to represent the object as a string
+    def to_s
+      "#{@name} (#{@category}) - Price: #{@price}, Description: #{@description}, Image: #{@image_path}"
+    end
+
+    # Alias info to to_s
+    alias info to_s
+
+    # Method to convert the object to a hash (using dynamic attributes)
+    def to_h
+      # Using instance_variables to get all instance variables dynamically
+      instance_variables.each_with_object({}) do |var, hash|
+        hash[var.to_s.delete('@').to_sym] = instance_variable_get(var)
+      end
+    end
+
+    # Method to represent the object in a more inspect-friendly way
+    def inspect
+      "#<#{self.class.name} #{@name} | #{@category} | #{@price} | #{@description} | #{@image_path}>"
+    end
+
+    # Update method to allow modification of attributes through a block
+    def update
+      yield self if block_given?
+    end
+
+    # Class method to generate fake data for an Item
+    def self.generate_fake
+      name = Faker::Commerce.product_name[0...MAX_NAME_LENGTH]
+      category = Faker::Commerce.department[0...MAX_CATEGORY_LENGTH]
+      description = Faker::Lorem.sentence(word_count: 15)[0...MAX_DESCRIPTION_LENGTH]
+      image_path = Faker::Internet.url(host: 'example.com', path: '/images/product.jpg')
+
+      new(
+        name: name,
+        price: Faker::Commerce.price(range: 10..1000),
+        description: description,
+        category: category,
+        image_path: image_path
+      )
+    end
+
+    # Class method to generate multiple fake items and return as an array
+    def self.generate_multiple_fake(count = 5)
+      Array.new(count) { generate_fake }
+    end
+
+    # Class method to print generated items in a table-like format
+    def self.print_fake_items_table(count = 5)
+      items = generate_multiple_fake(count)
+      # Print table header
+      puts '------------------------------------------------------------------------'
+      puts '| Name                      | Category   | Price  | Description         |'
+      puts '------------------------------------------------------------------------'
+      # Print each item in a row
+      items.each do |item|
+        puts "| #{item.name.ljust(25)} | #{item.category.ljust(10)} | #{format('%.2f', item.price)} | #{item.description.ljust(18)} |"
+      end
+      puts '------------------------------------------------------------------------'
+    end
   end
 end
