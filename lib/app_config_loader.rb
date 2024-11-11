@@ -7,6 +7,7 @@ require 'yaml'
 require 'erb'
 require 'json'
 require 'fileutils'
+require 'csv'
 
 # AppConfigLoader is responsible for loading and merging configuration data from YAML files and managing library dependencies.
 class AppConfigLoader

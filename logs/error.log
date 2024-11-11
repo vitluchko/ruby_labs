@@ -1,3 +1,1 @@
-E, [2024-11-10T23:42:10.910447 #3076] ERROR -- : Error: Failed to create product file: undefined method `create_product_file' for VitluchkoApplication:Module
-E, [2024-11-10T23:42:10.910566 #3076] ERROR -- : Error: Test error log
-E, [2024-11-10T23:44:53.410439 #13840] ERROR -- : Error: Test error log
+E, [2024-11-11T22:57:01.341915 #19896] ERROR -- : Error: Error while saving cart items: undefined method `save_to_yml' for #<VitluchkoApplication::Cart:0x0000024d50dad140 @items=[#<VitluchkoApplication::Item Omega-3 Fish Oil, 100 caps | Supplements | 19.99 | High-quality omega-3 fish oil supplement for heart health. | image_url_3>, #<VitluchkoApplication::Item Nutrilite™ Vitamin C, 100 tabs | Vitamins | 18.5 | Vitamin C for boosting immunity. | image_url_5>]>
