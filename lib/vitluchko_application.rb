@@ -5,6 +5,9 @@ require 'fileutils'
 require 'logger'
 require 'faker'
 
+# Require the ItemContainer module
+require_relative 'item_container'
+
 # VitluchkoApplication module is the main module for handling the application's logic
 # for web scraping and other related functionalities. It organizes and encapsulates
 # methods and configuration specific to the Vitluchko application context.
@@ -42,6 +45,11 @@ module VitluchkoApplication
       # Log errors
       def log_error(message)
         error_logger.error("Error: #{message}")
+      end
+
+      # Log general actions
+      def log_action(message)
+        application_logger.info("Action: #{message}")
       end
     end
   end
@@ -187,6 +195,128 @@ module VitluchkoApplication
         puts "| #{item.name.ljust(25)} | #{item.category.ljust(10)} | #{format('%.2f', item.price)} | #{item.description.ljust(18)} |"
       end
       puts '------------------------------------------------------------------------'
+    end
+  end
+
+  # Class to represent the shopping cart or collection of items
+  class Cart
+    include ItemContainer
+
+    attr_accessor :items
+
+    # Constructor to initialize the items array
+    def initialize
+      @items = []
+      LoggerManager.log_action('New Cart initialized.')
+    end
+
+    # Method to add an item to the cart
+    def add_item(item)
+      @items << item
+      LoggerManager.log_action("Item added: #{item.name}, Price: #{item.price}")
+    end
+
+    # Helper method to check if the cart is empty
+    def check_empty_cart
+      if @items.empty?
+        LoggerManager.log_error('No items to save. The cart is empty.')
+        puts 'Error: The cart is empty.'
+        return true
+      end
+      false
+    end
+
+    # Helper method to create the directory for the given category
+    def create_category_directory(output_directory, category)
+      category_dir = File.join(output_directory, category)
+      FileUtils.mkdir_p(category_dir)
+      category_dir
+    end
+
+    # Helper method to sanitize the file name
+    def sanitize_filename(name)
+      name.gsub(/[^\w\s_-]/, '').gsub(/\s+/, '_').downcase
+    end
+
+    # Helper method to save product data to a text file
+    def save_product_to_text_file(item, category_dir)
+      filename = File.join(category_dir, "#{sanitize_filename(item.name)}.txt")
+      File.open(filename, 'w') do |file|
+        file.puts "Name: #{item.name}"
+        file.puts "Price: $#{item.price}"
+        file.puts "Category: #{item.category}"
+        file.puts "Description: #{item.description}"
+      end
+      LoggerManager.log_action("Product saved to file: #{filename}")
+    end
+
+    # Method to save items to a plain text file
+    def save_to_file(output_directory)
+      return if check_empty_cart
+
+      @items.each do |item|
+        category_dir = create_category_directory(output_directory, item.category)
+        save_product_to_text_file(item, category_dir)
+      end
+    end
+
+    # Method to save items to a JSON file
+    def save_to_json(output_directory)
+      return if check_empty_cart
+
+      @items.each do |item|
+        category_dir = create_category_directory(output_directory, item.category)
+        filename = File.join(category_dir, "#{sanitize_filename(item.name)}.json")
+
+        File.write(filename, item.to_h.to_json)
+
+        LoggerManager.log_action("Item saved to JSON file: #{filename}")
+        puts "Item saved to JSON file: #{filename}"
+      end
+    end
+
+    # Method to save items to a CSV file
+    def save_to_csv(output_directory)
+      return if check_empty_cart
+
+      @items.each do |item|
+        category_dir = create_category_directory(output_directory, item.category)
+        filename = File.join(category_dir, "#{sanitize_filename(item.name)}.csv")
+
+        CSV.open(filename, 'w', write_headers: true, headers: ['Name', 'Category', 'Price', 'Description', 'Image Path']) do |csv|
+          csv << [item.name, item.category, item.price, item.description, item.image_path]
+        end
+
+        LoggerManager.log_action("Item saved to CSV file: #{filename}")
+        puts "Item saved to CSV file: #{filename}"
+      end
+    end
+
+    # Method to save each item as a separate YAML file
+    def save_to_yml(directory)
+      return if check_empty_cart
+
+      # Ensure the base directory exists
+      FileUtils.mkdir_p(directory)
+
+      # Create 'products' directory if it doesn't exist
+      products_dir = "#{directory}/products"
+      FileUtils.mkdir_p(products_dir)
+
+      @items.each do |item|
+        # Create category directory under 'products' if it doesn't already exist
+        category_dir = "#{products_dir}/#{item.category}"
+        FileUtils.mkdir_p(category_dir)
+
+        # Generate file name based on item name, converting spaces to underscores and making it lowercase
+        file_name = "#{category_dir}/#{sanitize_filename(item.name)}.yml"
+
+        # Write the item data to a YAML file
+        File.write(file_name, item.to_h.to_yaml)
+
+        LoggerManager.log_action("Cart item saved to YAML: #{file_name}")
+        puts "Cart item saved to YAML: #{file_name}"
+      end
     end
   end
 end

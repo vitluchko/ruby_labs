@@ -23,7 +23,7 @@ if config['logging'].nil?
 end
 
 # Set up logging using configuration from logging.yaml
-logging_config = config['logging'] # assuming 'logging' configuration exists
+logging_config = config['logging']
 VitluchkoApplication::LoggerManager.initialize_logger(logging_config)
 
 # Log that the application started
@@ -47,33 +47,91 @@ rescue StandardError => e
   VitluchkoApplication::LoggerManager.log_error("Failed to create product file: #{e.message}")
 end
 
-# Test logging an error to the error log
-VitluchkoApplication::LoggerManager.log_error('Test error log')
+# Initialize the Cart (Shopping cart)
+cart = VitluchkoApplication::Cart.new
 
-# Generate 10 fake items and display them in a table format using the new method
-puts "\nGenerated fake items:"
-items = 10.times.map { VitluchkoApplication::Item.generate_fake }
+products = [
+  {
+    name: 'Nutrilite™ Vitamin D, 60 tabs',
+    price: 25.99,
+    description: 'Nutrilite™ Vitamin D supplement for healthy bones.',
+    category: 'Vitamins',
+    media: %w[image_url_1 image_url_2]
+  },
+  {
+    name: 'Omega-3 Fish Oil, 100 caps',
+    price: 19.99,
+    description: 'High-quality omega-3 fish oil supplement for heart health.',
+    category: 'Supplements',
+    media: %w[image_url_3 image_url_4]
+  },
+  {
+    name: 'Nutrilite™ Vitamin C, 100 tabs',
+    price: 18.50,
+    description: 'Vitamin C for boosting immunity.',
+    category: 'Vitamins',
+    media: %w[image_url_5 image_url_6]
+  }
+]
 
-# Call the print_fake_items_table method to display the generated items
-VitluchkoApplication::Item.print_fake_items_table(items)
+# Create the product item
+products.each do |item_data|
+  item = VitluchkoApplication::Item.new(
+    name: item_data[:name],
+    price: item_data[:price],
+    description: item_data[:description],
+    category: item_data[:category],
+    image_path: item_data[:media].first
+  )
 
-# Demonstrating the use of update method to change attributes of the first item
-first_item = items.first
-first_item.update do |item|
-  item.price = 29.99
-  item.description = 'Updated description with new price!'
+  cart.add_item(item)
+  VitluchkoApplication::LoggerManager.log_action("Item added to cart: #{item.name}")
 end
-puts "\nUpdated first item:"
-puts first_item.info
 
-# Convert all items to a hash and print the details
-puts "\nItems in hash format:"
-items.each do |item|
-  puts item.to_h
+# Display all items in the cart
+puts "\nCart Items Before Deletion:"
+cart.show_all_items
+
+# Example: Deleting an item from the cart (by index 0)
+puts "\nDeleting the first item from the cart..."
+cart.remove_item(0)
+
+# Display cart items after deletion of one item
+puts "\nCart Items After Deleting One Item:"
+cart.show_all_items
+
+# Example: Saving remaining cart items to files
+begin
+  # Save to Text file
+  cart.save_to_file('config/yaml_config/products')
+
+  # Save to JSON file
+  cart.save_to_json('config/yaml_config/products')
+
+  # Save to CSV file
+  cart.save_to_csv('config/yaml_config/products')
+
+  # Save to YAML (Each item as a separate file in the category folder)
+  cart.save_to_yml('config/yaml_config')
+
+  # Log success
+  VitluchkoApplication::LoggerManager.log_processed_file('Cart items saved successfully.')
+rescue StandardError => e
+  # Log any errors that occur during saving
+  VitluchkoApplication::LoggerManager.log_error("Error while saving cart items: #{e.message}")
 end
 
-# Use the inspect method for detailed inspection of all items
-puts "\nInspecting all items:"
-items.each do |item|
-  puts item.inspect
-end
+# Show items in cart after saving
+puts "\nCart Items Before Clearing:"
+cart.show_all_items
+
+# Clear the cart
+puts "\nClearing the cart..."
+cart.delete_items
+
+# Show items in cart after clearing
+puts "\nCart Items After Clearing:"
+cart.show_all_items
+
+# Log the completion of all actions
+VitluchkoApplication::LoggerManager.log_processed_file('All cart actions completed successfully.')

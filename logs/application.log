@@ -1,25 +1,272 @@
-I, [2024-11-10T23:42:10.910210 #3076]  INFO -- : Processed File: Application started successfully
-I, [2024-11-10T23:42:11.837634 #3076]  INFO -- : Processed File: Item initialized: Ergonomic Linen Coat, Category: Beauty, Mu, Price: 292.0
-I, [2024-11-10T23:42:11.838148 #3076]  INFO -- : Processed File: Item initialized: Synergistic Silk Bench, Category: Beauty, Price: 428.0
-I, [2024-11-10T23:42:11.838733 #3076]  INFO -- : Processed File: Item initialized: Practical Rubber Wallet, Category: Clothing &, Price: 965.0
-I, [2024-11-10T23:42:11.839210 #3076]  INFO -- : Processed File: Item initialized: Intelligent Paper Keyboar, Category: Beauty, Price: 465.0
-I, [2024-11-10T23:42:11.839699 #3076]  INFO -- : Processed File: Item initialized: Intelligent Rubber Pants, Category: Jewelry, G, Price: 931.0
-I, [2024-11-10T23:42:11.842026 #3076]  INFO -- : Processed File: Item initialized: Rustic Bronze Hat, Category: Automotive, Price: 179.0
-I, [2024-11-10T23:42:11.844952 #3076]  INFO -- : Processed File: Item initialized: Enormous Concrete Watch, Category: Automotive, Price: 219.0
-I, [2024-11-10T23:42:11.846845 #3076]  INFO -- : Processed File: Item initialized: Mediocre Steel Bench, Category: Health & K, Price: 794.0
-I, [2024-11-10T23:42:11.850195 #3076]  INFO -- : Processed File: Item initialized: Awesome Marble Car, Category: Clothing, , Price: 953.0
-I, [2024-11-10T23:42:11.851169 #3076]  INFO -- : Processed File: Item initialized: Practical Steel Keyboard, Category: Sports & A, Price: 927.0
-I, [2024-11-10T23:44:53.408542 #13840]  INFO -- : Processed File: Application started successfully
-I, [2024-11-10T23:44:53.409242 #13840]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-10T23:44:53.409908 #13840]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
-I, [2024-11-10T23:44:53.410280 #13840]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-10T23:44:54.359227 #13840]  INFO -- : Processed File: Item initialized: Intelligent Silk Computer, Category: Music & Au, Price: 100.0
-I, [2024-11-10T23:44:54.359866 #13840]  INFO -- : Processed File: Item initialized: Practical Steel Table, Category: Garden & H, Price: 977.0
-I, [2024-11-10T23:44:54.360381 #13840]  INFO -- : Processed File: Item initialized: Durable Rubber Table, Category: Games, Aut, Price: 877.0
-I, [2024-11-10T23:44:54.361128 #13840]  INFO -- : Processed File: Item initialized: Fantastic Iron Shoes, Category: Baby & Ele, Price: 663.0
-I, [2024-11-10T23:44:54.363207 #13840]  INFO -- : Processed File: Item initialized: Rustic Silk Knife, Category: Books, Gam, Price: 352.0
-I, [2024-11-10T23:44:54.364700 #13840]  INFO -- : Processed File: Item initialized: Mediocre Cotton Computer, Category: Movies & I, Price: 682.0
-I, [2024-11-10T23:44:54.368065 #13840]  INFO -- : Processed File: Item initialized: Aerodynamic Marble Plate, Category: Home, Auto, Price: 908.0
-I, [2024-11-10T23:44:54.371373 #13840]  INFO -- : Processed File: Item initialized: Intelligent Silk Knife, Category: Home & Gro, Price: 130.0
-I, [2024-11-10T23:44:54.372340 #13840]  INFO -- : Processed File: Item initialized: Enormous Plastic Hat, Category: Sports, Be, Price: 741.0
-I, [2024-11-10T23:44:54.373705 #13840]  INFO -- : Processed File: Item initialized: Intelligent Linen Pants, Category: Books, Price: 875.0
+\I, [2024-11-11T22:57:01.312439 #19896]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T22:57:01.313569 #19896]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T22:57:01.314681 #19896]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T22:57:01.315923 #19896]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:57:01.316156 #19896]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T22:57:01.316520 #19896]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T22:57:01.316886 #19896]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T22:57:01.317224 #19896]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:57:01.317522 #19896]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T22:57:01.317816 #19896]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T22:57:01.318079 #19896]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T22:57:01.318454 #19896]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T22:57:01.318772 #19896]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T22:57:01.319101 #19896]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T22:57:01.325908 #19896]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:57:01.331840 #19896]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T22:57:01.332598 #19896]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T22:57:01.333304 #19896]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T22:57:01.335111 #19896]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T22:57:01.337416 #19896]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T22:57:01.339884 #19896]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T22:57:01.350547 #19896]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T22:58:10.755829 #20064]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T22:58:10.757011 #20064]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T22:58:10.758466 #20064]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T22:58:10.759964 #20064]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:58:10.760575 #20064]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T22:58:10.760927 #20064]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T22:58:10.761152 #20064]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T22:58:10.761562 #20064]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:58:10.761985 #20064]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T22:58:10.762233 #20064]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T22:58:10.762593 #20064]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T22:58:10.762798 #20064]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T22:58:10.762996 #20064]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T22:58:10.763215 #20064]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T22:58:10.769249 #20064]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:58:10.773558 #20064]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T22:58:10.774496 #20064]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T22:58:10.777193 #20064]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T22:58:10.780540 #20064]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T22:58:10.782697 #20064]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T22:58:10.785878 #20064]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T22:58:10.789668 #20064]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T22:58:10.791545 #20064]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/products/Supplements/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T22:58:10.792426 #20064]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T22:58:10.803855 #20064]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T22:59:01.042428 #11768]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T22:59:01.043670 #11768]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T22:59:01.044979 #11768]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T22:59:01.045942 #11768]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:59:01.046242 #11768]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T22:59:01.046539 #11768]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T22:59:01.046731 #11768]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T22:59:01.046906 #11768]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:59:01.047094 #11768]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T22:59:01.047379 #11768]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T22:59:01.047644 #11768]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T22:59:01.047948 #11768]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T22:59:01.048167 #11768]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T22:59:01.048423 #11768]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T22:59:01.054227 #11768]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T22:59:01.059528 #11768]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T22:59:01.060542 #11768]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T22:59:01.061659 #11768]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T22:59:01.063816 #11768]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T22:59:01.066088 #11768]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T22:59:01.068027 #11768]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T22:59:01.070779 #11768]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T22:59:01.085555 #11768]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T22:59:01.086302 #11768]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T22:59:01.096459 #11768]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:01:02.738891 #8248]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:01:02.740182 #8248]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:01:02.741903 #8248]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:01:02.742814 #8248]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:01:02.743048 #8248]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:01:02.743248 #8248]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:01:02.743407 #8248]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:01:02.743546 #8248]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:01:02.743693 #8248]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:01:02.743846 #8248]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:01:02.743994 #8248]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:01:02.744151 #8248]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:01:02.744298 #8248]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:01:02.744438 #8248]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:01:02.748647 #8248]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:01:02.753685 #8248]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T23:01:02.754306 #8248]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T23:01:02.754969 #8248]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:01:02.756783 #8248]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:01:02.759400 #8248]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:01:02.761384 #8248]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:01:02.763705 #8248]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T23:01:02.766000 #8248]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T23:01:02.767006 #8248]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:01:02.774942 #8248]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:02:46.830100 #9568]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:02:46.831255 #9568]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:02:46.832438 #9568]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:02:46.833598 #9568]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:02:46.834312 #9568]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:02:46.834626 #9568]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:02:46.834894 #9568]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:02:46.835140 #9568]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:02:46.835389 #9568]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:02:46.835940 #9568]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:02:46.836361 #9568]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:02:46.836781 #9568]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:02:46.837073 #9568]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:02:46.837363 #9568]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:02:46.844880 #9568]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:02:46.849799 #9568]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T23:02:46.851211 #9568]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T23:02:46.852609 #9568]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:02:46.855177 #9568]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:02:46.857083 #9568]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:02:46.858953 #9568]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:02:46.861887 #9568]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T23:02:46.864124 #9568]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T23:02:46.865037 #9568]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:02:46.874809 #9568]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:12:55.814949 #10264]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:12:55.816673 #10264]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:12:55.817802 #10264]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:12:55.818825 #10264]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:12:55.819046 #10264]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:12:55.819249 #10264]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:12:55.819478 #10264]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:12:55.819650 #10264]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:12:55.819799 #10264]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:12:55.819936 #10264]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:12:55.820195 #10264]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:12:55.820399 #10264]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:12:55.820615 #10264]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:12:55.820777 #10264]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:12:55.826109 #10264]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:12:55.831800 #10264]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T23:12:55.833819 #10264]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T23:12:55.835010 #10264]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:12:55.836590 #10264]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:12:55.838141 #10264]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:12:55.839699 #10264]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:12:55.841877 #10264]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T23:12:55.844659 #10264]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T23:12:55.845515 #10264]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:12:55.854274 #10264]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:13:18.924951 #10296]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:13:18.926509 #10296]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:13:18.929710 #10296]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:13:18.930592 #10296]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:13:18.931173 #10296]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:13:18.931389 #10296]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:13:18.931571 #10296]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:13:18.931748 #10296]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:13:18.931930 #10296]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:13:18.932110 #10296]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:13:18.932380 #10296]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:13:18.932560 #10296]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:13:18.932731 #10296]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:13:18.932889 #10296]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:13:18.937799 #10296]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:13:18.942871 #10296]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/Omega-3_Fish_Oil__100_caps.txt
+I, [2024-11-11T23:13:18.946731 #10296]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/Nutrilite__Vitamin_C__100_tabs.txt
+I, [2024-11-11T23:13:18.949398 #10296]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:13:18.951385 #10296]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:13:18.953621 #10296]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:13:18.955529 #10296]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:13:18.958115 #10296]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil,_100_caps.yml
+I, [2024-11-11T23:13:18.963907 #10296]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite™_vitamin_c,_100_tabs.yml
+I, [2024-11-11T23:13:18.965683 #10296]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:13:18.974043 #10296]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:16:19.429765 #18500]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:16:19.431231 #18500]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:16:19.432729 #18500]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:16:19.435119 #18500]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:19.435501 #18500]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:16:19.435815 #18500]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:16:19.436161 #18500]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:16:19.436758 #18500]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:19.437309 #18500]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:16:19.437589 #18500]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:16:19.437811 #18500]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:16:19.438045 #18500]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:16:19.438315 #18500]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:16:19.438665 #18500]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:16:19.445673 #18500]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:19.452367 #18500]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.txt
+I, [2024-11-11T23:16:19.453859 #18500]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.txt
+I, [2024-11-11T23:16:19.455285 #18500]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:16:19.457974 #18500]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:16:19.460852 #18500]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:16:19.463253 #18500]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:16:19.466274 #18500]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.yml
+I, [2024-11-11T23:16:19.468844 #18500]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
+I, [2024-11-11T23:16:19.472756 #18500]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:16:19.481868 #18500]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:16:56.218658 #19348]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:16:56.220521 #19348]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:16:56.221675 #19348]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:16:56.222342 #19348]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:56.222554 #19348]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:16:56.222836 #19348]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:16:56.223071 #19348]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:16:56.223382 #19348]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:56.223616 #19348]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:16:56.223806 #19348]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:16:56.224010 #19348]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:16:56.224280 #19348]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:16:56.224484 #19348]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:16:56.224700 #19348]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:16:56.231438 #19348]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:16:56.236656 #19348]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.txt
+I, [2024-11-11T23:16:56.237646 #19348]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.txt
+I, [2024-11-11T23:16:56.238578 #19348]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:16:56.240286 #19348]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:16:56.242384 #19348]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:16:56.245415 #19348]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:16:56.248885 #19348]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.yml
+I, [2024-11-11T23:16:56.263778 #19348]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
+I, [2024-11-11T23:16:56.264928 #19348]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:16:56.271697 #19348]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:18:06.973267 #12520]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:18:06.974814 #12520]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:18:06.977229 #12520]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:18:06.978084 #12520]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:06.978315 #12520]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:18:06.978625 #12520]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:18:06.978926 #12520]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:18:06.979167 #12520]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:06.979523 #12520]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:18:06.979801 #12520]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:18:06.980075 #12520]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:18:06.980375 #12520]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:18:06.980714 #12520]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:18:06.980988 #12520]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:18:06.986983 #12520]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:06.991745 #12520]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.txt
+I, [2024-11-11T23:18:06.993273 #12520]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.txt
+I, [2024-11-11T23:18:06.995142 #12520]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:18:06.996708 #12520]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:18:06.998476 #12520]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:18:07.000166 #12520]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:18:07.002849 #12520]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.yml
+I, [2024-11-11T23:18:07.005025 #12520]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
+I, [2024-11-11T23:18:07.006183 #12520]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:18:07.016078 #12520]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-11T23:18:24.314101 #8076]  INFO -- : Processed File: Application started successfully
+I, [2024-11-11T23:18:24.316034 #8076]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
+I, [2024-11-11T23:18:24.317725 #8076]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
+I, [2024-11-11T23:18:24.318748 #8076]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:24.319037 #8076]  INFO -- : Action: New Cart initialized.
+I, [2024-11-11T23:18:24.319337 #8076]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
+I, [2024-11-11T23:18:24.319650 #8076]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
+I, [2024-11-11T23:18:24.319960 #8076]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:24.320399 #8076]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Supplements, Price: 19.99
+I, [2024-11-11T23:18:24.320690 #8076]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
+I, [2024-11-11T23:18:24.320982 #8076]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
+I, [2024-11-11T23:18:24.321252 #8076]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
+I, [2024-11-11T23:18:24.321573 #8076]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
+I, [2024-11-11T23:18:24.321821 #8076]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
+I, [2024-11-11T23:18:24.327848 #8076]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
+I, [2024-11-11T23:18:24.332756 #8076]  INFO -- : Action: Product saved to file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.txt
+I, [2024-11-11T23:18:24.333579 #8076]  INFO -- : Action: Product saved to file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.txt
+I, [2024-11-11T23:18:24.334585 #8076]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.json
+I, [2024-11-11T23:18:24.336550 #8076]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
+I, [2024-11-11T23:18:24.338920 #8076]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.csv
+I, [2024-11-11T23:18:24.342013 #8076]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
+I, [2024-11-11T23:18:24.345873 #8076]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Supplements/omega-3_fish_oil_100_caps.yml
+I, [2024-11-11T23:18:24.348025 #8076]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
+I, [2024-11-11T23:18:24.348985 #8076]  INFO -- : Processed File: Cart items saved successfully.
+I, [2024-11-11T23:18:24.357631 #8076]  INFO -- : Processed File: All cart actions completed successfully.
