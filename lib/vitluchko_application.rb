@@ -319,4 +319,51 @@ module VitluchkoApplication
       end
     end
   end
+
+  # Configurator class is responsible for managing configuration settings
+  # and allows users to override default configurations with custom values.
+  class Configurator
+    attr_accessor :config
+
+    # Initialize the Configurator with default configuration settings.
+    #
+    # Default settings include:
+    # - run_website_parser: 0
+    # - run_save_to_csv: 0
+    # - run_save_to_json: 0
+    # - run_save_to_yaml: 0
+    # - run_save_to_sqlite: 0
+    # - run_save_to_mongodb: 0
+    def initialize
+      @config = {
+        run_website_parser: 0,    # Enable or disable website parsing
+        run_save_to_csv: 0,       # Enable or disable saving to CSV
+        run_save_to_json: 0,      # Enable or disable saving to JSON
+        run_save_to_yaml: 0,      # Enable or disable saving to YAML
+        run_save_to_sqlite: 0,    # Enable or disable saving to SQLite
+        run_save_to_mongodb: 0    # Enable or disable saving to MongoDB
+      }
+    end
+
+    # Method to configure custom settings by overriding default values.
+    #
+    # @param overrides [Hash] A hash of configuration keys and their new values
+    def configure(overrides)
+      overrides.each do |key, value|
+        if @config.key?(key)
+          @config[key] = value
+        else
+          puts "Warning: Invalid config key: #{key}"
+        end
+      end
+    end
+
+    # Class method to get a list of available configuration keys.
+    #
+    # @return [Array<Symbol>] List of available configuration keys
+    def self.available_methods
+      # Use %i for an array of symbols to improve performance and readability
+      %i[run_website_parser run_save_to_csv run_save_to_json run_save_to_yaml run_save_to_sqlite run_save_to_mongodb]
+    end
+  end
 end
