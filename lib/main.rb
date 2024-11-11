@@ -4,6 +4,25 @@
 require_relative 'app_config_loader'
 require_relative 'vitluchko_application'
 
+# Initialize the Configurator with default configuration
+configurator = VitluchkoApplication::Configurator.new
+
+# Load configurations using the configurator (this simulates the loading of config data)
+configurator.configure(
+  run_website_parser: 1,      # Enable website parsing
+  run_save_to_csv: 1,         # Enable saving to CSV
+  run_save_to_json: 1,        # Enable saving to JSON
+  run_save_to_yaml: 1,        # Disable saving to YAML
+  run_save_to_sqlite: 1,      # Enable saving to SQLite
+  run_save_to_mongodb: 1      # Enable saving to MongoDB
+)
+
+# Verify configuration settings
+puts 'Current configuration settings:'
+puts configurator.config
+puts "\nAvailable Methods:"
+puts VitluchkoApplication::Configurator.available_methods
+
 # Initialize the AppConfigLoader with the path to the default config and additional config directory
 config_loader = AppConfigLoader.new(
   'config/default_config.yaml', # path to default config
@@ -30,48 +49,49 @@ VitluchkoApplication::LoggerManager.initialize_logger(logging_config)
 VitluchkoApplication::LoggerManager.log_processed_file('Application started successfully')
 
 # Sample product data for creating a product file
-product = {
+product1 = {
   name: 'Nutrilite™ Vitamin D, 60 tabs',
   price: 25.99,
   description: 'Nutrilite™ Vitamin D supplement for healthy bones.',
   media: %w[image_url_1 image_url_2]
 }
 
-category = 'Vitamins'
+product2 = {
+  name: 'Omega-3 Fish Oil, 100 caps',
+  price: 19.99,
+  description: 'High-quality omega-3 fish oil supplement for heart health.',
+  media: %w[image_url_3 image_url_4]
+}
 
-# Create the product file
-begin
-  VitluchkoApplication.create_product_file(category, product)
-  VitluchkoApplication::LoggerManager.log_processed_file("Product file created successfully: #{product[:name]}")
-rescue StandardError => e
-  VitluchkoApplication::LoggerManager.log_error("Failed to create product file: #{e.message}")
-end
+product3 = {
+  name: 'Nutrilite™ Vitamin C, 100 tabs',
+  price: 18.50,
+  description: 'Vitamin C for boosting immunity.',
+  media: %w[image_url_5 image_url_6]
+}
+
+product4 = {
+  name: 'Probiotic Supplement, 30 caps',
+  price: 29.99,
+  description: 'High-quality probiotic supplement for gut health.',
+  media: %w[image_url_7 image_url_8]
+}
+
+product5 = {
+  name: 'Multivitamin, 120 tabs',
+  price: 49.99,
+  description: 'Comprehensive multivitamin supplement for overall health.',
+  media: %w[image_url_9 image_url_10]
+}
+
+category = 'Vitamins'
 
 # Initialize the Cart (Shopping cart)
 cart = VitluchkoApplication::Cart.new
 
+# Add items to the cart (use the sample product data)
 products = [
-  {
-    name: 'Nutrilite™ Vitamin D, 60 tabs',
-    price: 25.99,
-    description: 'Nutrilite™ Vitamin D supplement for healthy bones.',
-    category: 'Vitamins',
-    media: %w[image_url_1 image_url_2]
-  },
-  {
-    name: 'Omega-3 Fish Oil, 100 caps',
-    price: 19.99,
-    description: 'High-quality omega-3 fish oil supplement for heart health.',
-    category: 'Supplements',
-    media: %w[image_url_3 image_url_4]
-  },
-  {
-    name: 'Nutrilite™ Vitamin C, 100 tabs',
-    price: 18.50,
-    description: 'Vitamin C for boosting immunity.',
-    category: 'Vitamins',
-    media: %w[image_url_5 image_url_6]
-  }
+  product1, product2, product3, product4, product5
 ]
 
 # Create the product item
@@ -80,7 +100,7 @@ products.each do |item_data|
     name: item_data[:name],
     price: item_data[:price],
     description: item_data[:description],
-    category: item_data[:category],
+    category: item_data[:category] || category, # Default category if not provided
     image_path: item_data[:media].first
   )
 
@@ -100,19 +120,20 @@ cart.remove_item(0)
 puts "\nCart Items After Deleting One Item:"
 cart.show_all_items
 
-# Example: Saving remaining cart items to files
+# Example: Saving remaining cart items to files based on the configurator settings
 begin
-  # Save to Text file
-  cart.save_to_file('config/yaml_config/products')
+  # Check if saving to CSV is enabled
+  cart.save_to_csv('config/yaml_config/products') if configurator.config[:run_save_to_csv] == 1
 
-  # Save to JSON file
-  cart.save_to_json('config/yaml_config/products')
+  # Check if saving to JSON is enabled
+  cart.save_to_json('config/yaml_config/products') if configurator.config[:run_save_to_json] == 1
 
-  # Save to CSV file
-  cart.save_to_csv('config/yaml_config/products')
-
-  # Save to YAML (Each item as a separate file in the category folder)
-  cart.save_to_yml('config/yaml_config')
+  # Check if saving to YAML is enabled, and only if enabled (set to 1)
+  if configurator.config[:run_save_to_yaml] == 1
+    cart.save_to_yml('config/yaml_config')
+  else
+    puts 'YAML saving is disabled by the configuration.'
+  end
 
   # Log success
   VitluchkoApplication::LoggerManager.log_processed_file('Cart items saved successfully.')
