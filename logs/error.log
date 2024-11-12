@@ -1,1 +1,221 @@
-E, [2024-11-11T22:57:01.341915 #19896] ERROR -- : Error: Error while saving cart items: undefined method `save_to_yml' for #<VitluchkoApplication::Cart:0x0000024d50dad140 @items=[#<VitluchkoApplication::Item Omega-3 Fish Oil, 100 caps | Supplements | 19.99 | High-quality omega-3 fish oil supplement for heart health. | image_url_3>, #<VitluchkoApplication::Item Nutrilite™ Vitamin C, 100 tabs | Vitamins | 18.5 | Vitamin C for boosting immunity. | image_url_5>]>
+E, [2024-11-12T02:05:40.312560 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua, Response Code: 200
+E, [2024-11-12T02:05:40.596666 #4680] ERROR -- : Error: Extracted links: ["/uk/promotions/", "/uk/payment/", "/uk/shipping/", "/uk/warranty/", "/uk/contacts/", "/uk/", "/uk/catalog/esim/225/", "/uk/category/7/", "/uk/catalog/smartfony/76/", "/uk/category/10/", "/uk/category/8/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "https://shop.lifecell.ua/uk/category/10", "/uk/collection/bestsellers-webshop-main/84/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/startovyi-paket-sp-lifecell-potuzhnii-region/2065/3357/", "/uk/product/startovyi-paket-sp-lifecell-potuzhnii-region/2065/3357/", "/uk/product/zte-mf920t/92/168/", "/uk/product/zte-mf920t/92/168/", "/uk/product/samsung-galaxy-watch4/2061/3353/", "/uk/product/samsung-galaxy-watch4/2061/3353/", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "/uk/product/startovyi-paket-lifecell-universalnii-1/29/80/", "/uk/product/startovyi-paket-lifecell-universalnii-1/29/80/", "/uk/product/startovyi-paket-sp-lifecell-dzvinkii-bezmezh-region-tsr/1621/2700/", "/uk/product/startovyi-paket-sp-lifecell-dzvinkii-bezmezh-region-tsr/1621/2700/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/esim/1787/2943/", "/uk/product/esim/1787/2943/", "/uk/product/starter-package-lifecell-simple-life/638/1235/", "/uk/product/starter-package-lifecell-simple-life/638/1235/", "/uk/product/starter-package-lifecell-smart-life/634/1231/", "/uk/product/starter-package-lifecell-smart-life/634/1231/", "/uk/product/starter-package-lifecell-free-life/635/1232/", "/uk/product/starter-package-lifecell-free-life/635/1232/", "https://shop.lifecell.ua/uk/category/10", "/uk/product/zte-mf920t/92/168/", "/uk/product/zte-mf920t/92/168/", "/uk/product/alcatel-linkey-ik41ve1-2aalua1/1998/3256/", "/uk/product/alcatel-linkey-ik41ve1-2aalua1/1998/3256/", "/uk/", "https://www.facebook.com/lifecellua", "https://www.instagram.com/lifecellua", "https://x.com/lifecellua", "https://www.linkedin.com/company/lifecellua", "https://www.youtube.com/subscription_center?add_user=lifeboyua", "https://t.me/lifecellukraine", "/uk/promotions/", "/uk/payment/", "/uk/shipping/", "/uk/warranty/", "/uk/contacts/", "tel:0 800 20 22 20"]
+E, [2024-11-12T02:05:40.597016 #4680] ERROR -- : Error: Valid links: ["https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "https://shop.lifecell.ua/uk/category/10", "https://www.facebook.com/lifecellua", "https://www.instagram.com/lifecellua", "https://x.com/lifecellua", "https://www.linkedin.com/company/lifecellua", "https://www.youtube.com/subscription_center?add_user=lifeboyua", "https://t.me/lifecellukraine"]
+E, [2024-11-12T02:05:40.709384 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet, Response Code: 200
+E, [2024-11-12T02:05:40.886585 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.886846 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887073 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887299 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887522 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887736 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887916 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.887995 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888074 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888153 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888232 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888311 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888390 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888470 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888549 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888628 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888707 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888788 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888879 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.888958 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889036 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889115 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889194 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889275 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889369 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889505 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:40.889584 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet
+E, [2024-11-12T02:05:41.079932 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384, Response Code: 200
+E, [2024-11-12T02:05:41.307307 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.307596 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.307863 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308095 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308317 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308541 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308763 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308918 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.308998 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309077 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309167 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309247 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309325 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309407 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309488 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309567 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309646 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309725 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309803 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309882 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.309961 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310043 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310123 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310212 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310291 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310370 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.310449 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384
+E, [2024-11-12T02:05:41.414280 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung, Response Code: 200
+E, [2024-11-12T02:05:41.559809 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.560073 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.560303 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.560531 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.560758 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.560984 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.561178 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562119 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562285 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562437 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562599 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562738 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.562925 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.563170 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.563547 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.563843 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.564191 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.564773 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.565014 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.565250 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.565546 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.565764 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.565970 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.566148 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.566230 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.566309 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.566388 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung
+E, [2024-11-12T02:05:41.680947 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/, Response Code: 200
+E, [2024-11-12T02:05:41.830307 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.830567 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.830833 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.831089 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.831336 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.831567 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.831795 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832019 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832099 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832178 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832258 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832337 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832427 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832506 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832585 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832664 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832743 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832823 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832902 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.832981 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833061 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833143 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833225 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833304 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833383 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833472 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:41.833552 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/
+E, [2024-11-12T02:05:42.006012 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30, Response Code: 200
+E, [2024-11-12T02:05:42.231352 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.231639 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.231914 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.232207 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.232417 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.232689 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.232950 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.233219 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.233483 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.233711 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.233898 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.234193 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.234387 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.234592 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.234855 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.235027 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.235374 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.235591 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.235793 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.235996 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236125 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236222 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236325 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236410 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236489 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236568 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.236654 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30
+E, [2024-11-12T02:05:42.416847 #4680] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/category/10, Response Code: 200
+E, [2024-11-12T02:05:42.610376 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.610581 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.610779 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.610955 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.611114 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.611381 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.611612 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.611819 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612032 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612265 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612494 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612609 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612770 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.612859 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613011 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613155 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613299 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613413 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613519 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613618 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613698 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613781 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613869 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.613952 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.614054 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.614133 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:42.614212 #4680] ERROR -- : Error: Invalid product data: https://shop.lifecell.ua/uk/category/10
+E, [2024-11-12T02:05:43.153455 #4680] ERROR -- : Error: Checked URL: https://www.facebook.com/lifecellua, Response Code: 200
+E, [2024-11-12T02:05:44.201478 #4680] ERROR -- : Error: Checked URL: https://www.instagram.com/lifecellua, Response Code: 200
+E, [2024-11-12T02:05:45.630798 #4680] ERROR -- : Error: Error checking URL https://x.com/lifecellua: 403 => Net::HTTPForbidden for https://x.com/lifecellua -- unhandled response
+E, [2024-11-12T02:05:46.765718 #4680] ERROR -- : Error: Checked URL: https://www.linkedin.com/company/lifecellua, Response Code: 200
+E, [2024-11-12T02:05:46.983433 #4680] ERROR -- : Error: Error parsing product page https://www.linkedin.com/company/lifecellua: 999 =>  for  -- https://www.linkedin.com/company/lifecellua
+E, [2024-11-12T02:05:47.731331 #4680] ERROR -- : Error: Checked URL: https://www.youtube.com/subscription_center?add_user=lifeboyua, Response Code: 200
+E, [2024-11-12T02:05:48.144275 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.144534 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.144785 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.145011 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.145245 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.145468 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.145697 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.145918 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146139 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146254 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146333 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146412 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146490 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.146569 #4680] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:05:48.598904 #4680] ERROR -- : Error: Checked URL: https://t.me/lifecellukraine, Response Code: 200
+E, [2024-11-12T02:05:48.672338 #4680] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine
+E, [2024-11-12T02:05:48.672592 #4680] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine
+E, [2024-11-12T02:05:48.672852 #4680] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine
+E, [2024-11-12T02:05:48.673146 #4680] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine
+E, [2024-11-12T02:05:48.673411 #4680] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine
+E, [2024-11-12T02:05:48.674131 #4680] ERROR -- : Error: No items to save. The cart is empty.
+E, [2024-11-12T02:05:48.674658 #4680] ERROR -- : Error: No items to save. The cart is empty.
+E, [2024-11-12T02:05:48.675066 #4680] ERROR -- : Error: No items to save. The cart is empty.
+E, [2024-11-12T02:07:05.434709 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua, Response Code: 200
+E, [2024-11-12T02:07:05.747266 #16724] ERROR -- : Error: Extracted links: ["/uk/promotions/", "/uk/payment/", "/uk/shipping/", "/uk/warranty/", "/uk/contacts/", "/uk/", "/uk/catalog/esim/225/", "/uk/category/7/", "/uk/catalog/smartfony/76/", "/uk/category/10/", "/uk/category/8/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "https://shop.lifecell.ua/uk/category/10", "/uk/collection/bestsellers-webshop-main/84/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/startovyi-paket-sp-lifecell-potuzhnii-region/2065/3357/", "/uk/product/startovyi-paket-sp-lifecell-potuzhnii-region/2065/3357/", "/uk/product/zte-mf920t/92/168/", "/uk/product/zte-mf920t/92/168/", "/uk/product/samsung-galaxy-watch4/2061/3353/", "/uk/product/samsung-galaxy-watch4/2061/3353/", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "/uk/product/startovyi-paket-lifecell-universalnii-1/29/80/", "/uk/product/startovyi-paket-lifecell-universalnii-1/29/80/", "/uk/product/startovyi-paket-sp-lifecell-dzvinkii-bezmezh-region-tsr/1621/2700/", "/uk/product/startovyi-paket-sp-lifecell-dzvinkii-bezmezh-region-tsr/1621/2700/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/starter-package-lifecell-esim/197/384/", "/uk/product/esim/1787/2943/", "/uk/product/esim/1787/2943/", "/uk/product/starter-package-lifecell-simple-life/638/1235/", "/uk/product/starter-package-lifecell-simple-life/638/1235/", "/uk/product/starter-package-lifecell-smart-life/634/1231/", "/uk/product/starter-package-lifecell-smart-life/634/1231/", "/uk/product/starter-package-lifecell-free-life/635/1232/", "/uk/product/starter-package-lifecell-free-life/635/1232/", "https://shop.lifecell.ua/uk/category/10", "/uk/product/zte-mf920t/92/168/", "/uk/product/zte-mf920t/92/168/", "/uk/product/alcatel-linkey-ik41ve1-2aalua1/1998/3256/", "/uk/product/alcatel-linkey-ik41ve1-2aalua1/1998/3256/", "/uk/", "https://www.facebook.com/lifecellua", "https://www.instagram.com/lifecellua", "https://x.com/lifecellua", "https://www.linkedin.com/company/lifecellua", "https://www.youtube.com/subscription_center?add_user=lifeboyua", "https://t.me/lifecellukraine", "/uk/promotions/", "/uk/payment/", "/uk/shipping/", "/uk/warranty/", "/uk/contacts/", "tel:0 800 20 22 20"]
+E, [2024-11-12T02:07:05.747668 #16724] ERROR -- : Error: Valid links: ["https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet", "https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384", "https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung", "https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/", "https://shop.lifecell.ua/uk/catalog/startovye-pakety/30", "https://shop.lifecell.ua/uk/category/10", "https://www.facebook.com/lifecellua", "https://www.instagram.com/lifecellua", "https://x.com/lifecellua", "https://www.linkedin.com/company/lifecellua", "https://www.youtube.com/subscription_center?add_user=lifeboyua", "https://t.me/lifecellukraine"]
+E, [2024-11-12T02:07:05.871855 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/wi-fi-marshrutizatory-i-tochki-dostupa/75/?actsiya=home-internet, Response Code: 200
+E, [2024-11-12T02:07:06.295972 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/product/starter-package-lifecell-esim/197/384, Response Code: 200
+E, [2024-11-12T02:07:06.673130 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/smartfony/76/?proizvoditel=samsung, Response Code: 200
+E, [2024-11-12T02:07:07.018856 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/product/apple-iphone-15/2165/3543/, Response Code: 200
+E, [2024-11-12T02:07:07.411777 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/catalog/startovye-pakety/30, Response Code: 200
+E, [2024-11-12T02:07:07.848338 #16724] ERROR -- : Error: Checked URL: https://shop.lifecell.ua/uk/category/10, Response Code: 200
+E, [2024-11-12T02:07:08.568570 #16724] ERROR -- : Error: Checked URL: https://www.facebook.com/lifecellua, Response Code: 200
+E, [2024-11-12T02:07:08.871686 #16724] ERROR -- : Error: Invalid product data: https://www.facebook.com/lifecellua
+E, [2024-11-12T02:07:09.632643 #16724] ERROR -- : Error: Checked URL: https://www.instagram.com/lifecellua, Response Code: 200
+E, [2024-11-12T02:07:10.699975 #16724] ERROR -- : Error: Invalid product data: https://www.instagram.com/lifecellua
+E, [2024-11-12T02:07:11.235461 #16724] ERROR -- : Error: Error checking URL https://x.com/lifecellua: 403 => Net::HTTPForbidden for https://x.com/lifecellua -- unhandled response
+E, [2024-11-12T02:07:11.410260 #16724] ERROR -- : Error: Invalid product data: https://x.com/lifecellua
+E, [2024-11-12T02:07:12.432303 #16724] ERROR -- : Error: Checked URL: https://www.linkedin.com/company/lifecellua, Response Code: 200
+E, [2024-11-12T02:07:12.646791 #16724] ERROR -- : Error: Error parsing product page https://www.linkedin.com/company/lifecellua: 999 =>  for  -- https://www.linkedin.com/company/lifecellua
+E, [2024-11-12T02:07:13.338995 #16724] ERROR -- : Error: Checked URL: https://www.youtube.com/subscription_center?add_user=lifeboyua, Response Code: 200
+E, [2024-11-12T02:07:13.734599 #16724] ERROR -- : Error: Invalid product data: https://www.youtube.com/subscription_center?add_user=lifeboyua
+E, [2024-11-12T02:07:14.184762 #16724] ERROR -- : Error: Checked URL: https://t.me/lifecellukraine, Response Code: 200
+E, [2024-11-12T02:07:14.269186 #16724] ERROR -- : Error: Invalid product data: https://t.me/lifecellukraine

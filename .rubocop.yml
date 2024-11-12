@@ -11,7 +11,10 @@ AllCops:
     - 'test/**/*'
 
 Layout/LineLength:
-  Max: 140
+  Max: 150
+
+Metrics/ClassLength:
+  Max: 150
 
 Layout/IndentationWidth:
   Width: 2
