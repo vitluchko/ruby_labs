@@ -1,15 +1,18 @@
 web_scraping:
   # URL of the starting page for scraping
-  start_page: "https://life.com.ua"
+  start_page: "https://shop.lifecell.ua"
   
-  # CSS selector to extract product names
-  product_name_selector: ".product-title"
+  # CSS selector to extract product names (flexible)
+  product_name_selector: "a, h1, h2, .product-name, .product-link, p, .product-title, .item-name, .product-header, .product-item-title"
   
-  # CSS selector to extract product prices
-  product_price_selector: ".product-price__item"
+  # CSS selector to extract product prices (flexible)
+  product_price_selector: ".Price_productListItem__cB6eq, .product-price, span, .price, .cost, .price-amount, .product-price-value, .price-wrapper"
+
+  # CSS selector to extract product categories (flexible)
+  product_category_selector: "h1, h2, h3, p, span, .ProductCategory_classSelector, .category, .breadcrumb, .category-name, .breadcrumb-item, .product-category"
   
-  # CSS selector to extract product descriptions
-  product_description_selector: ".product-description"
-  
-  # CSS selector to extract product images
-  product_image_selector: ".gallery__link"
+  # CSS selector to extract product descriptions (flexible, multiple options)
+  product_description_selector: "h1, h2, span, .ProductsListItem_productListItemTitle__3StL0, .product-description, .product-details, .product-info, .product-summary, .description, .product-overview, .details, .info, .content, p, .product-text, .item-description, .product-long-description"
+
+  # CSS selector to extract product images (flexible)
+  product_image_selector: "img[src], .product-image img, .thumbnail img, .image-wrapper img, .product-image-container img, .main-image img, .product-img, .image"

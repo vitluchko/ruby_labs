@@ -1,131 +1,236 @@
-I, [2024-11-11T23:41:13.435355 #20772]  INFO -- : Processed File: Application started successfully
-I, [2024-11-11T23:41:13.436416 #20772]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-11T23:41:13.437815 #20772]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_d_60_tabs.yaml
-I, [2024-11-11T23:41:13.438866 #20772]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:41:13.441316 #20772]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-11T23:41:13.442101 #20772]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/omega3_fish_oil_100_caps.yaml
-I, [2024-11-11T23:41:13.442972 #20772]  INFO -- : Processed File: Product file created successfully: Omega-3 Fish Oil, 100 caps
-I, [2024-11-11T23:41:13.444124 #20772]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-11T23:41:13.444937 #20772]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/nutrilite_vitamin_c_100_tabs.yaml
-I, [2024-11-11T23:41:13.446109 #20772]  INFO -- : Processed File: Product file created successfully: Nutrilite™ Vitamin C, 100 tabs
-I, [2024-11-11T23:41:13.448869 #20772]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-11T23:41:13.449878 #20772]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/probiotic_supplement_30_caps.yaml
-I, [2024-11-11T23:41:13.450716 #20772]  INFO -- : Processed File: Product file created successfully: Probiotic Supplement, 30 caps
-I, [2024-11-11T23:41:13.452064 #20772]  INFO -- : Processed File: Category directory created: config/yaml_config/products/vitamins
-I, [2024-11-11T23:41:13.452832 #20772]  INFO -- : Processed File: Created product file: config/yaml_config/products/vitamins/multivitamin_120_tabs.yaml
-I, [2024-11-11T23:41:13.453674 #20772]  INFO -- : Processed File: Product file created successfully: Multivitamin, 120 tabs
-I, [2024-11-11T23:41:13.453931 #20772]  INFO -- : Action: New Cart initialized.
-I, [2024-11-11T23:41:13.454200 #20772]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
-I, [2024-11-11T23:41:13.454436 #20772]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
-I, [2024-11-11T23:41:13.454625 #20772]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:41:13.454877 #20772]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Vitamins, Price: 19.99
-I, [2024-11-11T23:41:13.455079 #20772]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
-I, [2024-11-11T23:41:13.455328 #20772]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
-I, [2024-11-11T23:41:13.455557 #20772]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
-I, [2024-11-11T23:41:13.455803 #20772]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
-I, [2024-11-11T23:41:13.456017 #20772]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
-I, [2024-11-11T23:41:13.456472 #20772]  INFO -- : Processed File: Item initialized: Probiotic Supplement, 30 caps, Category: Vitamins, Price: 29.99
-I, [2024-11-11T23:41:13.456714 #20772]  INFO -- : Action: Item added: Probiotic Supplement, 30 caps, Price: 29.99
-I, [2024-11-11T23:41:13.456978 #20772]  INFO -- : Action: Item added to cart: Probiotic Supplement, 30 caps
-I, [2024-11-11T23:41:13.457250 #20772]  INFO -- : Processed File: Item initialized: Multivitamin, 120 tabs, Category: Vitamins, Price: 49.99
-I, [2024-11-11T23:41:13.457514 #20772]  INFO -- : Action: Item added: Multivitamin, 120 tabs, Price: 49.99
-I, [2024-11-11T23:41:13.457725 #20772]  INFO -- : Action: Item added to cart: Multivitamin, 120 tabs
-I, [2024-11-11T23:41:13.465542 #20772]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:41:13.470633 #20772]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.csv
-I, [2024-11-11T23:41:13.472632 #20772]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
-I, [2024-11-11T23:41:13.476146 #20772]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.csv
-I, [2024-11-11T23:41:13.477983 #20772]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.csv
-I, [2024-11-11T23:41:13.479740 #20772]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.json
-I, [2024-11-11T23:41:13.482045 #20772]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
-I, [2024-11-11T23:41:13.483635 #20772]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.json
-I, [2024-11-11T23:41:13.485325 #20772]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.json
-I, [2024-11-11T23:41:13.486747 #20772]  INFO -- : Processed File: Cart items saved successfully.
-I, [2024-11-11T23:41:13.495985 #20772]  INFO -- : Processed File: All cart actions completed successfully.
-I, [2024-11-11T23:43:28.338130 #8580]  INFO -- : Processed File: Application started successfully
-I, [2024-11-11T23:43:28.338500 #8580]  INFO -- : Action: New Cart initialized.
-I, [2024-11-11T23:43:28.339128 #8580]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
-I, [2024-11-11T23:43:28.339696 #8580]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
-I, [2024-11-11T23:43:28.340080 #8580]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:43:28.340354 #8580]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Vitamins, Price: 19.99
-I, [2024-11-11T23:43:28.340660 #8580]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
-I, [2024-11-11T23:43:28.340974 #8580]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
-I, [2024-11-11T23:43:28.341378 #8580]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
-I, [2024-11-11T23:43:28.341675 #8580]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
-I, [2024-11-11T23:43:28.341824 #8580]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
-I, [2024-11-11T23:43:28.342049 #8580]  INFO -- : Processed File: Item initialized: Probiotic Supplement, 30 caps, Category: Vitamins, Price: 29.99
-I, [2024-11-11T23:43:28.342246 #8580]  INFO -- : Action: Item added: Probiotic Supplement, 30 caps, Price: 29.99
-I, [2024-11-11T23:43:28.342464 #8580]  INFO -- : Action: Item added to cart: Probiotic Supplement, 30 caps
-I, [2024-11-11T23:43:28.342714 #8580]  INFO -- : Processed File: Item initialized: Multivitamin, 120 tabs, Category: Vitamins, Price: 49.99
-I, [2024-11-11T23:43:28.342934 #8580]  INFO -- : Action: Item added: Multivitamin, 120 tabs, Price: 49.99
-I, [2024-11-11T23:43:28.343146 #8580]  INFO -- : Action: Item added to cart: Multivitamin, 120 tabs
-I, [2024-11-11T23:43:28.351025 #8580]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:43:28.357011 #8580]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.csv
-I, [2024-11-11T23:43:28.359031 #8580]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
-I, [2024-11-11T23:43:28.360843 #8580]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.csv
-I, [2024-11-11T23:43:28.362975 #8580]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.csv
-I, [2024-11-11T23:43:28.364824 #8580]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.json
-I, [2024-11-11T23:43:28.366394 #8580]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
-I, [2024-11-11T23:43:28.368331 #8580]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.json
-I, [2024-11-11T23:43:28.370287 #8580]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.json
-I, [2024-11-11T23:43:28.371635 #8580]  INFO -- : Processed File: Cart items saved successfully.
-I, [2024-11-11T23:43:28.381532 #8580]  INFO -- : Processed File: All cart actions completed successfully.
-I, [2024-11-11T23:44:13.974112 #20964]  INFO -- : Processed File: Application started successfully
-I, [2024-11-11T23:44:13.974607 #20964]  INFO -- : Action: New Cart initialized.
-I, [2024-11-11T23:44:13.974971 #20964]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
-I, [2024-11-11T23:44:13.975326 #20964]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
-I, [2024-11-11T23:44:13.975647 #20964]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:44:13.975975 #20964]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Vitamins, Price: 19.99
-I, [2024-11-11T23:44:13.976314 #20964]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
-I, [2024-11-11T23:44:13.976529 #20964]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
-I, [2024-11-11T23:44:13.976843 #20964]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
-I, [2024-11-11T23:44:13.977218 #20964]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
-I, [2024-11-11T23:44:13.977713 #20964]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
-I, [2024-11-11T23:44:13.978027 #20964]  INFO -- : Processed File: Item initialized: Probiotic Supplement, 30 caps, Category: Vitamins, Price: 29.99
-I, [2024-11-11T23:44:13.978367 #20964]  INFO -- : Action: Item added: Probiotic Supplement, 30 caps, Price: 29.99
-I, [2024-11-11T23:44:13.978671 #20964]  INFO -- : Action: Item added to cart: Probiotic Supplement, 30 caps
-I, [2024-11-11T23:44:13.979002 #20964]  INFO -- : Processed File: Item initialized: Multivitamin, 120 tabs, Category: Vitamins, Price: 49.99
-I, [2024-11-11T23:44:13.979329 #20964]  INFO -- : Action: Item added: Multivitamin, 120 tabs, Price: 49.99
-I, [2024-11-11T23:44:13.979613 #20964]  INFO -- : Action: Item added to cart: Multivitamin, 120 tabs
-I, [2024-11-11T23:44:13.988337 #20964]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:44:13.996530 #20964]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.json
-I, [2024-11-11T23:44:13.999291 #20964]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
-I, [2024-11-11T23:44:14.001766 #20964]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.json
-I, [2024-11-11T23:44:14.003705 #20964]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.json
-I, [2024-11-11T23:44:14.018596 #20964]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.yml
-I, [2024-11-11T23:44:14.021056 #20964]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
-I, [2024-11-11T23:44:14.023393 #20964]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.yml
-I, [2024-11-11T23:44:14.026229 #20964]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/multivitamin_120_tabs.yml
-I, [2024-11-11T23:44:14.027283 #20964]  INFO -- : Processed File: Cart items saved successfully.
-I, [2024-11-11T23:44:14.039593 #20964]  INFO -- : Processed File: All cart actions completed successfully.
-I, [2024-11-11T23:48:17.736249 #14288]  INFO -- : Processed File: Application started successfully
-I, [2024-11-11T23:48:17.736698 #14288]  INFO -- : Action: New Cart initialized.
-I, [2024-11-11T23:48:17.737062 #14288]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin D, 60 tabs, Category: Vitamins, Price: 25.99
-I, [2024-11-11T23:48:17.737378 #14288]  INFO -- : Action: Item added: Nutrilite™ Vitamin D, 60 tabs, Price: 25.99
-I, [2024-11-11T23:48:17.737685 #14288]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:48:17.737976 #14288]  INFO -- : Processed File: Item initialized: Omega-3 Fish Oil, 100 caps, Category: Vitamins, Price: 19.99
-I, [2024-11-11T23:48:17.738278 #14288]  INFO -- : Action: Item added: Omega-3 Fish Oil, 100 caps, Price: 19.99
-I, [2024-11-11T23:48:17.738577 #14288]  INFO -- : Action: Item added to cart: Omega-3 Fish Oil, 100 caps
-I, [2024-11-11T23:48:17.738893 #14288]  INFO -- : Processed File: Item initialized: Nutrilite™ Vitamin C, 100 tabs, Category: Vitamins, Price: 18.5
-I, [2024-11-11T23:48:17.739179 #14288]  INFO -- : Action: Item added: Nutrilite™ Vitamin C, 100 tabs, Price: 18.5
-I, [2024-11-11T23:48:17.739474 #14288]  INFO -- : Action: Item added to cart: Nutrilite™ Vitamin C, 100 tabs
-I, [2024-11-11T23:48:17.739752 #14288]  INFO -- : Processed File: Item initialized: Probiotic Supplement, 30 caps, Category: Vitamins, Price: 29.99
-I, [2024-11-11T23:48:17.740061 #14288]  INFO -- : Action: Item added: Probiotic Supplement, 30 caps, Price: 29.99
-I, [2024-11-11T23:48:17.740395 #14288]  INFO -- : Action: Item added to cart: Probiotic Supplement, 30 caps
-I, [2024-11-11T23:48:17.740644 #14288]  INFO -- : Processed File: Item initialized: Multivitamin, 120 tabs, Category: Vitamins, Price: 49.99
-I, [2024-11-11T23:48:17.740828 #14288]  INFO -- : Action: Item added: Multivitamin, 120 tabs, Price: 49.99
-I, [2024-11-11T23:48:17.740996 #14288]  INFO -- : Action: Item added to cart: Multivitamin, 120 tabs
-I, [2024-11-11T23:48:17.748664 #14288]  INFO -- : Action: Removed item from cart: Nutrilite™ Vitamin D, 60 tabs
-I, [2024-11-11T23:48:17.755423 #14288]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.csv
-I, [2024-11-11T23:48:17.757730 #14288]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.csv
-I, [2024-11-11T23:48:17.760241 #14288]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.csv
-I, [2024-11-11T23:48:17.762452 #14288]  INFO -- : Action: Item saved to CSV file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.csv
-I, [2024-11-11T23:48:17.764234 #14288]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.json
-I, [2024-11-11T23:48:17.765825 #14288]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.json
-I, [2024-11-11T23:48:17.768226 #14288]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.json
-I, [2024-11-11T23:48:17.771253 #14288]  INFO -- : Action: Item saved to JSON file: config/yaml_config/products/Vitamins/multivitamin_120_tabs.json
-I, [2024-11-11T23:48:17.773732 #14288]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/omega-3_fish_oil_100_caps.yml
-I, [2024-11-11T23:48:17.776844 #14288]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/nutrilite_vitamin_c_100_tabs.yml
-I, [2024-11-11T23:48:17.779113 #14288]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/probiotic_supplement_30_caps.yml
-I, [2024-11-11T23:48:17.781162 #14288]  INFO -- : Action: Cart item saved to YAML: config/yaml_config/products/Vitamins/multivitamin_120_tabs.yml
-I, [2024-11-11T23:48:17.782229 #14288]  INFO -- : Processed File: Cart items saved successfully.
-I, [2024-11-11T23:48:17.793146 #14288]  INFO -- : Processed File: All cart actions completed successfully.
+I, [2024-11-12T02:05:39.714205 #4680]  INFO -- : Processed File: Application started successfully
+I, [2024-11-12T02:05:40.861030 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.861778 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.863646 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.864807 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.865624 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.867105 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.867785 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.868394 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.869041 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.869655 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.870247 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.871538 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.872163 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.872872 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.873908 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.874861 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.876867 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.877808 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.878659 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.880686 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.881941 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.882863 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.883778 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.884394 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.885019 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.885674 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:40.886313 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.283634 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.284617 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.285568 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.286420 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.287264 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.289112 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.289936 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.290857 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.291624 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.292466 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.293534 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.295649 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.296574 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.297413 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.298266 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.299068 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.299917 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.300902 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.301677 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.302345 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.302990 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.303636 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.304490 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.305123 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.305765 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.306384 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.307031 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.540068 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.540700 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.541326 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.541962 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.542591 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.543915 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.544547 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.545464 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.546339 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.547064 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.547699 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.549017 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.549881 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.550622 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.551375 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.552086 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.552813 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.553562 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.554294 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.554936 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.555578 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.556207 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.556842 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.557440 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.558056 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.558725 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.559551 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.809384 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.810364 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.811160 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.812058 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.812828 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.814409 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.815153 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.815897 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.816555 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.817279 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.817949 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.819429 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.820162 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.820996 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.821762 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.822626 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.823388 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.824131 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.824871 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.825472 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.826162 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.826799 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.827526 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.828197 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.828832 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.829437 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:41.830041 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.200763 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.201841 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.202940 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.203914 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.205004 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.207210 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.208125 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.209053 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.209968 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.210900 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.212170 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.214725 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.215712 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.217213 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.218421 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.219511 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.220730 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.221856 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.223050 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.223883 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.224681 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.225485 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.226312 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.227118 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.228207 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.229721 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.230952 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.589862 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.590561 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.591164 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.591752 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.592381 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.593676 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.594284 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.595014 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.596299 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.597111 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.597797 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.599139 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.599918 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.600680 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.601433 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.602185 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.602912 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.603682 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.604510 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.605084 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.605689 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.607154 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.607834 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.608405 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.608993 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.609577 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:42.610157 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.135484 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.136869 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.137463 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.138063 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.138651 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.139249 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.139825 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.140413 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.140971 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.141568 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.142168 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.142808 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.143394 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.143963 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.668210 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.668912 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.670804 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.671469 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.672067 #4680]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:05:48.673682 #4680]  INFO -- : Processed File: Website parsing completed successfully
+I, [2024-11-12T02:05:48.673915 #4680]  INFO -- : Action: New Cart initialized.
+I, [2024-11-12T02:05:48.674543 #4680]  INFO -- : Processed File: Products saved to CSV.
+I, [2024-11-12T02:05:48.674954 #4680]  INFO -- : Processed File: Products saved to JSON.
+I, [2024-11-12T02:05:48.675362 #4680]  INFO -- : Processed File: Products saved to YAML.
+I, [2024-11-12T02:05:48.675469 #4680]  INFO -- : Processed File: All actions completed successfully.
+I, [2024-11-12T02:07:02.127329 #16724]  INFO -- : Processed File: Application started successfully
+I, [2024-11-12T02:07:06.033489 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:06.092919 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:06.502316 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:06.563375 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:06.832425 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:06.907755 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:07.161494 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:07.221973 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:07.615625 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:07.675839 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:08.055571 #16724]  INFO -- : Processed File: Item initialized: Акції, Category: 0 800 20 22 20, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:08.115122 #16724]  INFO -- : Processed File: Image saved: ./media/products/twitter.svg
+I, [2024-11-12T02:07:08.871361 #16724]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:07:10.699408 #16724]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:07:11.409962 #16724]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:07:13.734259 #16724]  INFO -- : Processed File: Item initialized: No name available, Category: No category available, Price: No price available
+I, [2024-11-12T02:07:14.268867 #16724]  INFO -- : Processed File: Item initialized: No name available, Category: lifecell, Price: lifecell
+I, [2024-11-12T02:07:14.269454 #16724]  INFO -- : Processed File: Website parsing completed successfully
+I, [2024-11-12T02:07:14.269725 #16724]  INFO -- : Action: New Cart initialized.
+I, [2024-11-12T02:07:14.270000 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.270262 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.270573 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.270797 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.271020 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.271132 #16724]  INFO -- : Action: Item added: Акції, Price: 0 800 20 22 20
+I, [2024-11-12T02:07:14.271802 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.272867 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.273849 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.274801 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.276002 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.277388 #16724]  INFO -- : Action: Item saved to CSV file: output/products/0 800 20 22 20/.csv
+I, [2024-11-12T02:07:14.278016 #16724]  INFO -- : Processed File: Products saved to CSV.
+I, [2024-11-12T02:07:14.278855 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.280476 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.282260 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.283878 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.285359 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.286839 #16724]  INFO -- : Action: Item saved to JSON file: output/products/0 800 20 22 20/.json
+I, [2024-11-12T02:07:14.287597 #16724]  INFO -- : Processed File: Products saved to JSON.
+I, [2024-11-12T02:07:14.288849 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.292679 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.295547 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.297299 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.298730 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.301438 #16724]  INFO -- : Action: Cart item saved to YAML: output/products/0 800 20 22 20/.yml
+I, [2024-11-12T02:07:14.302157 #16724]  INFO -- : Processed File: Products saved to YAML.
+I, [2024-11-12T02:07:14.302766 #16724]  INFO -- : Processed File: All actions completed successfully.

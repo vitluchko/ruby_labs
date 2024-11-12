@@ -4,6 +4,7 @@ require 'yaml'
 require 'fileutils'
 require 'logger'
 require 'faker'
+require 'mechanize'
 
 # Require the ItemContainer module
 require_relative 'item_container'
@@ -364,6 +365,145 @@ module VitluchkoApplication
     def self.available_methods
       # Use %i for an array of symbols to improve performance and readability
       %i[run_website_parser run_save_to_csv run_save_to_json run_save_to_yaml run_save_to_sqlite run_save_to_mongodb]
+    end
+  end
+
+  # SimpleWebsiteParser is responsible for scraping product data from the given URL.
+  # It extracts product names, prices, descriptions, and images from the website.
+  class SimpleWebsiteParser
+    attr_accessor :config, :agent, :item_collection
+
+    def initialize(config)
+      @config = config
+      @agent = Mechanize.new
+      @agent.open_timeout = 10
+      @agent.read_timeout = 10
+      @item_collection = []
+    end
+
+    def start_parse
+      start_url = @config['web_parser']['web_scraping']['start_page']
+      unless check_url_response(start_url)
+        VitluchkoApplication::LoggerManager.log_error("Start URL is not available: #{start_url}")
+        return
+      end
+
+      page = @agent.get(start_url)
+      product_links = extract_products_links(page)
+
+      if product_links.empty?
+        VitluchkoApplication::LoggerManager.log_error('No product links found on the start page.')
+        return
+      end
+
+      product_links.each do |product_link|
+        parse_product_page(product_link)
+      end
+    end
+
+    def extract_products_links(page)
+      links = page.search('a').map { |link| link['href'] }
+      VitluchkoApplication::LoggerManager.log_error("Extracted links: #{links.inspect}")
+
+      links = links.compact.uniq.grep(%r{^https?://})
+
+      VitluchkoApplication::LoggerManager.log_error("Valid links: #{links.inspect}")
+      links.map { |link| URI.join(page.uri.to_s, link).to_s }
+    end
+
+    def parse_product_page(product_link)
+      return unless check_url_response(product_link)
+
+      page = @agent.get(product_link)
+
+      # Extract product details
+      product = extract_product_details(page)
+
+      # Check if the product is valid and add it to the collection
+      if valid_product?(product)
+        save_product_images(product)
+        @item_collection << product
+      else
+        VitluchkoApplication::LoggerManager.log_error("Invalid product data: #{product_link}")
+      end
+    rescue Mechanize::ResponseCodeError => e
+      VitluchkoApplication::LoggerManager.log_error("Error parsing product page #{product_link}: #{e.message}")
+    rescue StandardError => e
+      VitluchkoApplication::LoggerManager.log_error("Error occurred during parsing: #{e.message}")
+    end
+
+    # Extract product details (name, price, description, image)
+    def extract_product_details(page)
+      name = extract_product_name(page)
+      price = extract_product_price(page)
+      description = extract_product_description(page)
+      image = extract_product_image(page)
+      category = extract_product_category(page)
+
+      Item.new(
+        name: name,
+        price: price,
+        category: category,
+        description: description,
+        image_path: image
+      )
+    end
+
+    def extract_product_name(page)
+      name_element = page.at(@config['web_parser']['web_scraping']['product_name_selector'])
+      name = name_element&.text&.strip
+      name.nil? || name.empty? ? 'No name available' : name
+    end
+
+    def extract_product_price(page)
+      price_element = page.at(@config['web_parser']['web_scraping']['product_price_selector'])
+      price = price_element&.text&.strip
+      price.nil? || price.empty? ? 'No price available' : price
+    end
+
+    def extract_product_category(page)
+      category_element = page.at(@config['web_parser']['web_scraping']['product_category_selector'])
+      category = category_element&.text&.strip
+      category.nil? || category.empty? ? 'No category available' : category
+    end
+
+    def extract_product_description(page)
+      description_element = page.at(@config['web_parser']['web_scraping']['product_description_selector'])
+      description = description_element&.text&.strip
+      description.nil? || description.empty? ? 'No description available' : description
+    end
+
+    def extract_product_image(page)
+      image_element = page.at(@config['web_parser']['web_scraping']['product_image_selector'])
+      image = image_element&.[]('src')
+      image.nil? || image.empty? ? 'No image available' : image
+    end
+
+    def valid_product?(product)
+      product.name != 'No name available' && product.price != 'No price available'
+    end
+
+    def check_url_response(url)
+      response = @agent.head(url) # Use HEAD to minimize load
+      VitluchkoApplication::LoggerManager.log_error("Checked URL: #{url}, Response Code: #{response.code}")
+      response.code == '200'
+    rescue Mechanize::ResponseCodeError => e
+      VitluchkoApplication::LoggerManager.log_error("Error checking URL #{url}: #{e.message}")
+    end
+
+    def save_product_images(product)
+      return unless product.image_path != 'No image available'
+
+      category_dir = './media/products'
+      FileUtils.mkdir_p(category_dir)
+
+      image_filename = File.join(category_dir, File.basename(product.image_path))
+      begin
+        File.binwrite(image_filename, @agent.get(product.image_path).body)
+        VitluchkoApplication::LoggerManager.log_processed_file("Image saved: #{image_filename}")
+      rescue StandardError => e
+        VitluchkoApplication::LoggerManager.log_error("Error saving image: #{e.message}")
+      end
     end
   end
 end
